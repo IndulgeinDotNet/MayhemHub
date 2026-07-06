@@ -1,0 +1,6 @@
+{
+  "name": "MayhemHub",
+  "description": "An Android app for MayhemHub - Web interface for HackRF/Portapack Mayhem firmware with real USB serial connectivity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
