@@ -1,5 +1,7 @@
 # MayhemHub Android 
 
+I couldnt get the browser to pick up the portapack on the web (hackrf.app) on my android, so instead i made an apk to utilize the existing usbserialbridge and it works perfectly* <---- *kinda but it works lol.
+
 MayhemHub is a custom, high-performance Android companion application designed to bridge native Android USB OTG Serial connections directly with the web-based HackRF and PortaPack Mayhem firmware controller interface ([hackrf.app](https://hackrf.app)).
 
 This app wraps the web-based remote control panel inside a custom Jetpack Compose WebView and maps the low-level Android USB Host API directly into standard WebSerial / WebUSB JavaScript APIs. This eliminates the need for special mobile browsers or root privileges to control your PortaPack Mayhem from your phone.
