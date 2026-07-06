@@ -36,8 +36,10 @@ The PortaPack with HackRF consumes significant power (**~500mA**). When active o
 ## 🛠️ Getting Started & Installation
 
 ### Option 1: Quick Install via Available APK 
-You can obtain a production-ready APK directly from Versions:
-1. 
+You can obtain a production-ready APK directly from releases:
+1.  Visit https://github.com/IndulgeinDotNet/MayhemHub/releases/tag/APK
+2.  Download APK
+3.  Enjoy.
 
 ### Option 2: Build from Source (Gradle)
 If you have exported this project as a ZIP:
