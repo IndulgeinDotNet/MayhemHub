@@ -60,3 +60,6 @@ If you have exported this project as a ZIP:
 3. Open **MayhemHub**.
 4. A system dialog will prompt you: *"Allow MayhemHub to access the USB device?"* -> tap **OK / Allow**.
 5. Once the page loads, tap **Refresh** or **Connect** at the bottom of the interface to initialize the WebSerial connection and start controlling your screen!
+
+6. <img width="364" height="814" alt="image" src="https://github.com/user-attachments/assets/256e96fd-7c53-4301-90d7-c7051a38229a" />
+
