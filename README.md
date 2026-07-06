@@ -61,4 +61,7 @@ If you have exported this project as a ZIP:
 5. Once the page loads, tap **Refresh** or **Connect** at the bottom of the interface to initialize the WebSerial connection and start controlling your screen!
 
 6. <img width="364" height="814" alt="image" src="https://github.com/user-attachments/assets/256e96fd-7c53-4301-90d7-c7051a38229a" />
+<img width="1080" height="2340" alt="Screenshot_20260706_124834_MayhemHub" src="https://github.com/user-attachments/assets/fb71f512-27b8-4837-af71-708800b02594" />
+<img width="1080" height="2340" alt="Screenshot_20260706_124812_MayhemHub" src="https://github.com/user-attachments/assets/b7725856-2836-46ee-a9c7-13203f005f21" />
+
 
