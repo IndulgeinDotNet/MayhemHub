@@ -11,7 +11,6 @@ This app wraps the web-based remote control panel inside a custom Jetpack Compos
 * **Native USB-to-WebView Serial Bridge**: Custom high-speed USB serial bridge (`UsbSerialBridge`) communicating with the CDC ACM class of the HackRF/PortaPack.
 * **Base64 Buffered Pipeline**: High-performance packet buffering and batching to avoid Web JavaScript blocking. Data chunks are aggregated on the native side over a short (12ms) sliding window and transferred to the WebView engine using Base64 chunks to prevent flooding the Web UI thread.
 * **WebSerial API Injection**: Auto-injects standard `navigator.serial` polyfills and triggers native connect/disconnect events, providing out-of-the-box compatibility with the web interface.
-* **Power & Brownout Safety Alerts**: Integrated hardware monitoring advice and diagnostic helper UI addressing common mobile-specific power limitations.
 
 ---
 
@@ -28,8 +27,8 @@ The PortaPack with HackRF consumes significant power (**~500mA**). When active o
 
 ### How to Fix It
 1. **Use an Externally-Powered Hub / Y-Cable**: Use a USB-C OTG Y-cable or a portable USB-C hub with a **PD Power Delivery port** plugged into a power bank or wall charger. This supplies clean, external 5V power to the HackRF/PortaPack while keeping the data lines connected to your phone.
-2. **Increase Phone Battery Charge**: Keep your phone's battery above 50%—many Android kernels aggressively throttle USB OTG power output when the phone is on low battery.
-3. **Verify Mayhem Settings**: Go to `Settings -> USB` on your PortaPack screen and make sure the correct remote or UI mode is active.
+2. **Increase Phone Battery Charge**: Keep your phone's battery above 50% (Tested on a Samsung Galaxy 23 FE, the device would not work under 23 percent battery and gave a massively degraded preformance if the portapack is low in battery) Many Android kernels aggressively throttle USB OTG power output when the phone is on low battery.
+5. **Verify Mayhem Settings**: Make sure you are **not** in HackRF mode but in portapack mode.
 
 ---
 
